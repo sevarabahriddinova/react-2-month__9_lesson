@@ -3,8 +3,8 @@ import { Outlet } from 'react-router-dom'
 
 const Auth = () => {
   return (
-    <div className='flex items-center justify-center min-h-screen bg-blue-500'>
-        <div className='max-w-[400px] flex-1 bg-white'> 
+    <div className='flex items-center justify-center min-h-screen '>
+        <div className='max-w-[400px] shadow-2xl  flex-1 bg-blue-300 rounded-md p-4'> 
             <Outlet/>
         </div>
     </div>

@@ -32,7 +32,7 @@ const Login = () => {
 
   return (
     <Form
-      className="p-4"
+      className="p-6 "
       name="basic"
       layout="vertical"
       initialValues={{
@@ -79,3 +79,4 @@ const Login = () => {
   );
 };
 export default Login;
+
